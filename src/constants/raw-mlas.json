@@ -1,0 +1,630 @@
+[{
+  "member_id" : "90628",
+  "person_id" : "25555",
+  "name" : "Joanne Bunting",
+  "party" : "DUP",
+  "constituency" : "Belfast East"
+},
+{
+  "member_id" : "90629",
+  "person_id" : "25451",
+  "name" : "Andy Allen",
+  "party" : "UUP",
+  "constituency" : "Belfast East"
+},
+{
+  "member_id" : "90630",
+  "person_id" : "24994",
+  "name" : "Chris Lyttle",
+  "party" : "Alliance",
+  "constituency" : "Belfast East"
+},
+{
+  "member_id" : "90631",
+  "person_id" : "13845",
+  "name" : "Robin Newton",
+  "party" : "DUP",
+  "constituency" : "Belfast East"
+},
+{
+  "member_id" : "90632",
+  "person_id" : "13809",
+  "name" : "Gerry Kelly",
+  "party" : "Sinn Féin",
+  "constituency" : "Belfast North"
+},
+{
+  "member_id" : "90633",
+  "person_id" : "13913",
+  "name" : "Carál Ní Chuilín",
+  "party" : "Sinn Féin",
+  "constituency" : "Belfast North"
+},
+{
+  "member_id" : "90634",
+  "person_id" : "25571",
+  "name" : "Nichola Mallon",
+  "party" : "Social Democratic and Labour Party",
+  "constituency" : "Belfast North"
+},
+{
+  "member_id" : "90635",
+  "person_id" : "25124",
+  "name" : "Paula Bradley",
+  "party" : "DUP",
+  "constituency" : "Belfast North"
+},
+{
+  "member_id" : "90636",
+  "person_id" : "25011",
+  "name" : "William Humphrey",
+  "party" : "DUP",
+  "constituency" : "Belfast North"
+},
+{
+  "member_id" : "90639",
+  "person_id" : "25553",
+  "name" : "Paula Bradshaw",
+  "party" : "Alliance",
+  "constituency" : "Belfast South"
+},
+{
+  "member_id" : "90640",
+  "person_id" : "25577",
+  "name" : "Christopher Stalford",
+  "party" : "DUP",
+  "constituency" : "Belfast South"
+},
+{
+  "member_id" : "90641",
+  "person_id" : "25548",
+  "name" : "Clare Bailey",
+  "party" : "Green",
+  "constituency" : "Belfast South"
+},
+{
+  "member_id" : "90642",
+  "person_id" : "25598",
+  "name" : "Órlaithí Flynn",
+  "party" : "Sinn Féin",
+  "constituency" : "Belfast West"
+},
+{
+  "member_id" : "90643",
+  "person_id" : "13816",
+  "name" : "Alex Maskey",
+  "party" : "Sinn Féin",
+  "constituency" : "Belfast West"
+},
+{
+  "member_id" : "90644",
+  "person_id" : "13818",
+  "name" : "Fra McCann",
+  "party" : "Sinn Féin",
+  "constituency" : "Belfast West"
+},
+{
+  "member_id" : "90645",
+  "person_id" : "25020",
+  "name" : "Pat Sheehan",
+  "party" : "Sinn Féin",
+  "constituency" : "Belfast West"
+},
+{
+  "member_id" : "90646",
+  "person_id" : "25557",
+  "name" : "Gerry Carroll",
+  "party" : "People Before Profit Alliance",
+  "constituency" : "Belfast West"
+},
+{
+  "member_id" : "90647",
+  "person_id" : "13801",
+  "name" : "David Hilditch",
+  "party" : "DUP",
+  "constituency" : "East Antrim"
+},
+{
+  "member_id" : "90648",
+  "person_id" : "13887",
+  "name" : "Roy Beggs",
+  "party" : "UUP",
+  "constituency" : "East Antrim"
+},
+{
+  "member_id" : "90649",
+  "person_id" : "25126",
+  "name" : "Stewart Dickson",
+  "party" : "Alliance",
+  "constituency" : "East Antrim"
+},
+{
+  "member_id" : "90650",
+  "person_id" : "25450",
+  "name" : "Gordon Lyons",
+  "party" : "DUP",
+  "constituency" : "East Antrim"
+},
+{
+  "member_id" : "90651",
+  "person_id" : "25602",
+  "name" : "John Stewart",
+  "party" : "UUP",
+  "constituency" : "East Antrim"
+},
+{
+  "member_id" : "90652",
+  "person_id" : "25546",
+  "name" : "Caoimhe Archibald",
+  "party" : "Sinn Féin",
+  "constituency" : "East Londonderry"
+},
+{
+  "member_id" : "90653",
+  "person_id" : "25551",
+  "name" : "Maurice Bradley",
+  "party" : "DUP",
+  "constituency" : "East Londonderry"
+},
+{
+  "member_id" : "90654",
+  "person_id" : "25226",
+  "name" : "Claire Sugden",
+  "party" : "Independent",
+  "constituency" : "East Londonderry"
+},
+{
+  "member_id" : "90655",
+  "person_id" : "13858",
+  "name" : "George Robinson",
+  "party" : "DUP",
+  "constituency" : "East Londonderry"
+},
+{
+  "member_id" : "90657",
+  "person_id" : "13790",
+  "name" : "Arlene Foster",
+  "party" : "DUP",
+  "constituency" : "Fermanagh and South Tyrone"
+},
+{
+  "member_id" : "90659",
+  "person_id" : "25603",
+  "name" : "Jemma Dolan",
+  "party" : "Sinn Féin",
+  "constituency" : "Fermanagh and South Tyrone"
+},
+{
+  "member_id" : "90660",
+  "person_id" : "25135",
+  "name" : "Sean Lynch",
+  "party" : "Sinn Féin",
+  "constituency" : "Fermanagh and South Tyrone"
+},
+{
+  "member_id" : "90661",
+  "person_id" : "25549",
+  "name" : "Rosemary Barton",
+  "party" : "UUP",
+  "constituency" : "Fermanagh and South Tyrone"
+},
+{
+  "member_id" : "90665",
+  "person_id" : "25143",
+  "name" : "Mark Durkan",
+  "party" : "Social Democratic and Labour Party",
+  "constituency" : "Foyle"
+},
+{
+  "member_id" : "90666",
+  "person_id" : "25267",
+  "name" : "Gary Middleton",
+  "party" : "DUP",
+  "constituency" : "Foyle"
+},
+{
+  "member_id" : "90667",
+  "person_id" : "24972",
+  "name" : "Paul Givan",
+  "party" : "DUP",
+  "constituency" : "Lagan Valley"
+},
+{
+  "member_id" : "90668",
+  "person_id" : "25556",
+  "name" : "Robbie Butler",
+  "party" : "UUP",
+  "constituency" : "Lagan Valley"
+},
+{
+  "member_id" : "90669",
+  "person_id" : "13903",
+  "name" : "Trevor Lunn",
+  "party" : "Alliance",
+  "constituency" : "Lagan Valley"
+},
+{
+  "member_id" : "90670",
+  "person_id" : "13853",
+  "name" : "Edwin Poots",
+  "party" : "DUP",
+  "constituency" : "Lagan Valley"
+},
+{
+  "member_id" : "90671",
+  "person_id" : "25605",
+  "name" : "Pat Catney",
+  "party" : "Social Democratic and Labour Party",
+  "constituency" : "Lagan Valley"
+},
+{
+  "member_id" : "90672",
+  "person_id" : "13915",
+  "name" : "Michelle O'Neill",
+  "party" : "Sinn Féin",
+  "constituency" : "Mid Ulster"
+},
+{
+  "member_id" : "90673",
+  "person_id" : "25554",
+  "name" : "Keith Buchanan",
+  "party" : "DUP",
+  "constituency" : "Mid Ulster"
+},
+{
+  "member_id" : "90675",
+  "person_id" : "25559",
+  "name" : "Linda Dillon",
+  "party" : "Sinn Féin",
+  "constituency" : "Mid Ulster"
+},
+{
+  "member_id" : "90676",
+  "person_id" : "13828",
+  "name" : "Patsy McGlone",
+  "party" : "Social Democratic and Labour Party",
+  "constituency" : "Mid Ulster"
+},
+{
+  "member_id" : "90677",
+  "person_id" : "13901",
+  "name" : "William Irwin",
+  "party" : "DUP",
+  "constituency" : "Newry and Armagh"
+},
+{
+  "member_id" : "90678",
+  "person_id" : "13892",
+  "name" : "Cathal Boylan",
+  "party" : "Sinn Féin",
+  "constituency" : "Newry and Armagh"
+},
+{
+  "member_id" : "90679",
+  "person_id" : "25568",
+  "name" : "Justin McNulty",
+  "party" : "Social Democratic and Labour Party",
+  "constituency" : "Newry and Armagh"
+},
+{
+  "member_id" : "90681",
+  "person_id" : "11734",
+  "name" : "Conor Murphy",
+  "party" : "Sinn Féin",
+  "constituency" : "Newry and Armagh"
+},
+{
+  "member_id" : "90682",
+  "person_id" : "13829",
+  "name" : "Philip McGuigan",
+  "party" : "Sinn Féin",
+  "constituency" : "North Antrim"
+},
+{
+  "member_id" : "90683",
+  "person_id" : "24981",
+  "name" : "Paul Frew",
+  "party" : "DUP",
+  "constituency" : "North Antrim"
+},
+{
+  "member_id" : "90684",
+  "person_id" : "13867",
+  "name" : "Mervyn Storey",
+  "party" : "DUP",
+  "constituency" : "North Antrim"
+},
+{
+  "member_id" : "90685",
+  "person_id" : "25122",
+  "name" : "Jim Allister",
+  "party" : "Traditional Unionist Voice",
+  "constituency" : "North Antrim"
+},
+{
+  "member_id" : "90686",
+  "person_id" : "25141",
+  "name" : "Robin Swann",
+  "party" : "UUP",
+  "constituency" : "North Antrim"
+},
+{
+  "member_id" : "90687",
+  "person_id" : "13780",
+  "name" : "Alex Easton",
+  "party" : "DUP",
+  "constituency" : "North Down"
+},
+{
+  "member_id" : "90688",
+  "person_id" : "25558",
+  "name" : "Alan Chambers",
+  "party" : "UUP",
+  "constituency" : "North Down"
+},
+{
+  "member_id" : "90690",
+  "person_id" : "25129",
+  "name" : "Gordon Dunne",
+  "party" : "DUP",
+  "constituency" : "North Down"
+},
+{
+  "member_id" : "90692",
+  "person_id" : "25561",
+  "name" : "Declan Kearney",
+  "party" : "Sinn Féin",
+  "constituency" : "South Antrim"
+},
+{
+  "member_id" : "90693",
+  "person_id" : "25545",
+  "name" : "Steve Aiken",
+  "party" : "UUP",
+  "constituency" : "South Antrim"
+},
+{
+  "member_id" : "90696",
+  "person_id" : "25134",
+  "name" : "Pam Cameron",
+  "party" : "DUP",
+  "constituency" : "South Antrim"
+},
+{
+  "member_id" : "90697",
+  "person_id" : "25606",
+  "name" : "Sinéad Ennis",
+  "party" : "Sinn Féin",
+  "constituency" : "South Down"
+},
+{
+  "member_id" : "90699",
+  "person_id" : "13871",
+  "name" : "Jim Wells",
+  "party" : "DUP",
+  "constituency" : "South Down"
+},
+{
+  "member_id" : "90700",
+  "person_id" : "25552",
+  "name" : "Sinéad Bradley",
+  "party" : "Social Democratic and Labour Party",
+  "constituency" : "South Down"
+},
+{
+  "member_id" : "90701",
+  "person_id" : "25566",
+  "name" : "Colin McGrath",
+  "party" : "Social Democratic and Labour Party",
+  "constituency" : "South Down"
+},
+{
+  "member_id" : "90703",
+  "person_id" : "25547",
+  "name" : "Kellie Armstrong",
+  "party" : "Alliance",
+  "constituency" : "Strangford"
+},
+{
+  "member_id" : "90704",
+  "person_id" : "13910",
+  "name" : "Michelle McIlveen",
+  "party" : "DUP",
+  "constituency" : "Strangford"
+},
+{
+  "member_id" : "90705",
+  "person_id" : "25139",
+  "name" : "Mike Nesbitt",
+  "party" : "UUP",
+  "constituency" : "Strangford"
+},
+{
+  "member_id" : "90706",
+  "person_id" : "13870",
+  "name" : "Peter Weir",
+  "party" : "DUP",
+  "constituency" : "Strangford"
+},
+{
+  "member_id" : "90708",
+  "person_id" : "13847",
+  "name" : "John O'Dowd",
+  "party" : "Sinn Féin",
+  "constituency" : "Upper Bann"
+},
+{
+  "member_id" : "90709",
+  "person_id" : "25607",
+  "name" : "Jonathan Buckley",
+  "party" : "DUP",
+  "constituency" : "Upper Bann"
+},
+{
+  "member_id" : "90710",
+  "person_id" : "25550",
+  "name" : "Doug Beattie",
+  "party" : "UUP",
+  "constituency" : "Upper Bann"
+},
+{
+  "member_id" : "90711",
+  "person_id" : "13810",
+  "name" : "Dolores Kelly",
+  "party" : "Social Democratic and Labour Party",
+  "constituency" : "Upper Bann"
+},
+{
+  "member_id" : "90712",
+  "person_id" : "13758",
+  "name" : "Thomas Buchanan",
+  "party" : "DUP",
+  "constituency" : "West Tyrone"
+},
+{
+  "member_id" : "90715",
+  "person_id" : "25483",
+  "name" : "Daniel McCrossan",
+  "party" : "Social Democratic and Labour Party",
+  "constituency" : "West Tyrone"
+},
+{
+  "member_id" : "90716",
+  "person_id" : "25159",
+  "name" : "Declan McAleer",
+  "party" : "Sinn Féin",
+  "constituency" : "West Tyrone"
+},
+{
+  "member_id" : "90717",
+  "person_id" : "25709",
+  "name" : "Colm Gildernew",
+  "party" : "Sinn Féin",
+  "constituency" : "Fermanagh and South Tyrone"
+},
+{
+  "member_id" : "90718",
+  "person_id" : "25710",
+  "name" : "Karen Mullan",
+  "party" : "Sinn Féin",
+  "constituency" : "Foyle"
+},
+{
+  "member_id" : "90719",
+  "person_id" : "25711",
+  "name" : "Catherine Kelly",
+  "party" : "Sinn Féin",
+  "constituency" : "West Tyrone"
+},
+{
+  "member_id" : "90720",
+  "person_id" : "13897",
+  "name" : "Trevor Clarke",
+  "party" : "DUP",
+  "constituency" : "South Antrim"
+},
+{
+  "member_id" : "90721",
+  "person_id" : "25716",
+  "name" : "Emma Rogan",
+  "party" : "Sinn Féin",
+  "constituency" : "South Down"
+},
+{
+  "member_id" : "90722",
+  "person_id" : "25741",
+  "name" : "John Blair",
+  "party" : "Alliance",
+  "constituency" : "South Antrim"
+},
+{
+  "member_id" : "90723",
+  "person_id" : "25747",
+  "name" : "Emma Sheerin",
+  "party" : "Sinn Féin",
+  "constituency" : "Mid Ulster"
+},
+{
+  "member_id" : "90724",
+  "person_id" : "25773",
+  "name" : "Maolíosa McHugh",
+  "party" : "Sinn Féin",
+  "constituency" : "West Tyrone"
+},
+{
+  "member_id" : "90725",
+  "person_id" : "25784",
+  "name" : "Harry Harvey",
+  "party" : "DUP",
+  "constituency" : "Strangford"
+},
+{
+  "member_id" : "90726",
+  "person_id" : "25785",
+  "name" : "Rachel Woods",
+  "party" : "Green",
+  "constituency" : "North Down"
+},
+{
+  "member_id" : "90728",
+  "person_id" : "25931",
+  "name" : "Andrew Muir",
+  "party" : "Alliance",
+  "constituency" : "North Down"
+},
+{
+  "member_id" : "90729",
+  "person_id" : "25933",
+  "name" : "Sinead McLaughlin",
+  "party" : "Social Democratic and Labour Party",
+  "constituency" : "Foyle"
+},
+{
+  "member_id" : "90730",
+  "person_id" : "25934",
+  "name" : "Liz Kimmins",
+  "party" : "Sinn Féin",
+  "constituency" : "Newry and Armagh"
+},
+{
+  "member_id" : "90731",
+  "person_id" : "25935",
+  "name" : "Matthew O'Toole",
+  "party" : "Social Democratic and Labour Party",
+  "constituency" : "Belfast South"
+},
+{
+  "member_id" : "90732",
+  "person_id" : "25936",
+  "name" : "Deirdre Hargey",
+  "party" : "Sinn Féin",
+  "constituency" : "Belfast South"
+},
+{
+  "member_id" : "90733",
+  "person_id" : "13776",
+  "name" : "Diane Dodds",
+  "party" : "DUP",
+  "constituency" : "Upper Bann"
+},
+{
+  "member_id" : "90734",
+  "person_id" : "13814",
+  "name" : "Naomi Long",
+  "party" : "Alliance",
+  "constituency" : "Belfast East"
+},
+{
+  "member_id" : "90735",
+  "person_id" : "13891",
+  "name" : "Martina Anderson",
+  "party" : "Sinn Féin",
+  "constituency" : "Foyle"
+},
+{
+  "member_id" : "90736",
+  "person_id" : "25940",
+  "name" : "Cara Hunter",
+  "party" : "Social Democratic and Labour Party",
+  "constituency" : "East Londonderry"
+}]
