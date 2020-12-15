@@ -3,7 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import axios from 'axios';
 import { API_ROOT } from './constants/utils';
 import TwitterTweetEmbed from './TwitterTweetEmbed';
-// import { TwitterTweetEmbed } from 'react-twitter-embed';
+import Profile from './Profile';
 
 
 class CategoryTweets extends React.Component {
@@ -42,15 +42,10 @@ class CategoryTweets extends React.Component {
   }
 
   render() {
-    const {name, twitterHandle, classification, politicalParty, constituency} = this.state.profile;
     const {personalTweets, tweetCategory} = this.state;
     return (
       <Container>
-        <h1>{name}</h1>
-        <p><span className="h5">Title: </span><span>{classification}</span></p> 
-        <p><span className="h5">Party: </span><span>{politicalParty}</span></p>
-        <p><span className="h5">Constituency: </span><span>{constituency}</span></p>
-        <p><span className="h5">Twitter handle: </span><span><a alt="twitter handle" href={`https://www.twitter.com/${twitterHandle}`}>@{twitterHandle}</a></span></p>
+        <Profile {...this.state.profile}/>
         <hr/>
         <Container>
           {(() => {
@@ -69,7 +64,7 @@ class CategoryTweets extends React.Component {
           ) : (
             <Row>
               {personalTweets.tweets.map((tweet, index) => {
-                return <Col key={index} sm={4} xs={12}>
+                return <Col key={index} sm={4} md={6} xs={12}>
                   <TwitterTweetEmbed
                     tweetId={tweet.twitterId}
                   />
