@@ -4,7 +4,7 @@ import axios from 'axios';
 import { API_ROOT } from './constants/utils';
 import TwitterTweetEmbed from './TwitterTweetEmbed';
 import Profile from './Profile';
-
+import './Tweets.css';
 
 class CategoryTweets extends React.Component {
   state = {
@@ -67,6 +67,7 @@ class CategoryTweets extends React.Component {
                 return <Col key={index} sm={4} md={6} xs={12}>
                   <TwitterTweetEmbed
                     tweetId={tweet.twitterId}
+                    placeholder={(<div className="loader"></div>)}
                   />
                     {/* <blockquote className="twitter-tweet" data-lang="en" >
                       <a href={tweet.embedTwitterUrl}>

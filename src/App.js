@@ -15,7 +15,9 @@ function App() {
       <MainHeader/>
       <div>
         <Route exact path='/' component={Search} />
+        <Route path='/about' component={Contact} />
         <Route path='/contact' component={Contact} />
+        <Route path='/faq' component={Contact} />
         <Route exact path='/users' component={Users} />
         <Route path='/users/:id' component={Users} />
         <Route path='/people/:personId' component={PersonOfInterest} />
