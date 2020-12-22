@@ -1,7 +1,7 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap';
 import axios from 'axios';
-import { API_ROOT } from './constants/utils';
+import { API_ROOT, REMOTE_API_ROOT } from './constants/utils';
 import Profile from './Profile';
 
 class PersonOfInterest extends React.Component {
@@ -13,16 +13,17 @@ class PersonOfInterest extends React.Component {
     tweetCategories: []
   };
   async componentDidMount() {
+    const apiRoot = window.location.host.includes('localhost') ? API_ROOT : REMOTE_API_ROOT;
     if (this.props.match.params) {
       const { personId } = this.props.match.params;
       this.setState({loading: true});
       try {
-        const person = await axios.get(`${API_ROOT}/persons/${personId}`);
+        const person = await axios.get(`${apiRoot}/persons/${personId}`);
         if (person && person.data) {
           this.setState({profile: person.data})
         }
         // get tweet categories
-        const tweets = await axios.get(`${API_ROOT}/tweets/${personId}/tweet-categories`);
+        const tweets = await axios.get(`${apiRoot}/tweets/${personId}/tweet-categories`);
         if (tweets && tweets.data) {
           this.setState({tweetCategories: tweets.data, loading: false})
         }

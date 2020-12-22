@@ -1,7 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 import { Button, Col, Container, Form, Row } from 'react-bootstrap';
-import { API_ROOT } from './constants/utils';
+import { API_ROOT, REMOTE_API_ROOT } from './constants/utils';
 
 export class SearchForm extends React.Component {
   state = {
@@ -10,9 +10,10 @@ export class SearchForm extends React.Component {
   };
     
   handleSubmit = async (event) => {
+    const apiRoot = window.location.host.includes('localhost') ? API_ROOT : REMOTE_API_ROOT;
     event.preventDefault();
     this.setState({ isSearching: true });
-    axios.get(`${API_ROOT}/persons/constituency/${this.state.searchText}`)
+    axios.get(`${apiRoot}/persons/constituency/${this.state.searchText}`)
       .then((mps) => {
         this.props.onSubmit({
           results: mps.data,

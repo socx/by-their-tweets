@@ -3,7 +3,9 @@ import { useLocation } from 'react-router-dom';
 
 const MainHeader = props => {
   const location = useLocation(); 
-  console.log(location.pathname)
+  console.log('location.host', window.location.host)
+  console.log('location.host', location.host)
+  console.log('location.pathname', location.pathname)
   return (
     <div className="mb-4">
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
