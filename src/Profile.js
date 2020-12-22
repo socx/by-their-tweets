@@ -5,7 +5,7 @@ import photoPlaceHolder from './img-placeholer-100-by-180.png';
 const Profile = (props) => { 
   return <Row>
     <Col xs={12} sm={6} md={5}>
-      <Image src={props.twitterProfileImageUrl ? props.twitterProfileImageUrl.replace('_normal.jpg', '.jpg') : photoPlaceHolder}
+      <Image src={props.twitterProfileImageUrl ? props.twitterProfileImageUrl.replace('_normal.', '.') : photoPlaceHolder}
         width={280}
         height={280}
         alt={`${props.name}'s photo (280x280)`}
