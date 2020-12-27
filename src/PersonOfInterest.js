@@ -3,6 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import axios from 'axios';
 import { API_ROOT, REMOTE_API_ROOT } from './constants/utils';
 import Profile from './Profile';
+import Chart from "react-google-charts";
 
 class PersonOfInterest extends React.Component {
   state = {
@@ -35,13 +36,23 @@ class PersonOfInterest extends React.Component {
 
   render() {
     const {personId} = this.state.profile;
+    let pieData = [['Category', 'Number of Tweets']];
+    let tableData = [[
+      { type: 'string', label: 'Category' },
+      { type: 'number', label: 'Number of Tweets' },
+    ]];
+    for (let index = 0; index < this.state.tweetCategories.length - 1; index++) {
+      const category = this.state.tweetCategories[index];
+      pieData.push([category.category, category.numberOfTweets]);
+      tableData.push([category.category, { v: category.numberOfTweets, f: category.numberOfTweets.toString() }]);
+    }
     return (
       <Container>
         <Profile {...this.state.profile}/>
         <hr/>
         <Container>
             <Row>
-            <Col className="h4">Category</Col><Col className="h4">Number of Tweets</Col>
+              <Col className="h4">Category</Col><Col className="h4">Number of Tweets</Col>
             </Row>
           {this.state.tweetCategories.map((category, index) => {
             return <Row key={index}>
@@ -59,6 +70,23 @@ class PersonOfInterest extends React.Component {
               </Col>
             </Row>
           })}
+          <Row>
+            <Col>
+              <Chart
+                width={'900px'}
+                height={'500px'}
+                chartType="PieChart"
+                loader={<div>Loading Chart</div>}
+                data={pieData}
+                options={{
+                  title: 'Tweet Categories',
+                  // Just add this option
+                  pieHole: 0.4
+                }}
+                rootProps={{ 'data-testid': '2' }}
+              />
+            </Col>
+          </Row>
         </Container>
       </Container>
     )

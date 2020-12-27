@@ -14,7 +14,7 @@ export default function PoiCard(props) {
         <Card.Text>
           Constituency: {constituency}
         </Card.Text>
-        <Button variant="primary" href={`/people/${personId}`}>See tweets {personId}</Button>
+        <Button variant="primary" href={`/people/${personId}`}>See tweets &gt;</Button>
       </Card.Body>
     </Card>
   );

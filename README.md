@@ -39,3 +39,7 @@ https://www.postcodeaddressfile.co.uk/downloads/products_specifications/postcode
 
 ## how to extract data from csv and load to mongodb
 https://medium.com/analytics-vidhya/import-csv-file-into-mongodb-9b9b86582f34
+
+
+## install mongodb on digitalocean
+https://www.digitalocean.com/community/tutorials/how-to-install-mongodb-on-ubuntu-18-04
