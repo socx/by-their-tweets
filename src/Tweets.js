@@ -65,7 +65,7 @@ class CategoryTweets extends React.Component {
           ) : (
             <Row>
               {personalTweets.tweets.map((tweet, index) => {
-                return <Col key={index} xs={12} sm={12} md={4} lg={3}>
+                return <Col key={index} xs={12} sm={12} md={6} lg={4}>
                   <TwitterTweetEmbed
                     tweetId={tweet.twitterId}
                     placeholder={(<div className="loader"></div>)}
