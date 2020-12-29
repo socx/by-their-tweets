@@ -22,7 +22,7 @@ class CategoryTweets extends React.Component {
       const { personId, categoryId } = this.props.match.params;
       this.setState({loading: true});
       try {
-        const category = await axios.get(`${apiRoot}/tweets/tweet-categories/${categoryId}`);
+        const category = await axios.get(`${apiRoot}/tweet-categories/${categoryId}`);
         if (category && category.data) {
           this.setState({tweetCategory: category.data})
         }

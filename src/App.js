@@ -4,6 +4,7 @@ import './App.css';
 import Search from './Search';
 import Users from './users'
 import Contact from './contact'
+import Faq from './Faq'
 import MainHeader from './MainHeader';
 import PersonOfInterest from './PersonOfInterest';
 import Tweets from './Tweets';
@@ -16,8 +17,7 @@ function App() {
       <div>
         <Route exact path='/' component={Search} />
         <Route path='/about' component={Contact} />
-        <Route path='/contact' component={Contact} />
-        <Route path='/faq' component={Contact} />
+        <Route path='/faq' component={Faq} />
         <Route exact path='/users' component={Users} />
         <Route path='/users/:id' component={Users} />
         <Route path='/people/:personId' component={PersonOfInterest} />

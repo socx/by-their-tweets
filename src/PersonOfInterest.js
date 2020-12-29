@@ -24,7 +24,7 @@ class PersonOfInterest extends React.Component {
           this.setState({profile: person.data})
         }
         // get tweet categories
-        const tweets = await axios.get(`${apiRoot}/tweets/${personId}/tweet-categories`);
+        const tweets = await axios.get(`${apiRoot}/tweet-categories/person/${personId}`);
         if (tweets && tweets.data) {
           this.setState({tweetCategories: tweets.data, loading: false})
         }

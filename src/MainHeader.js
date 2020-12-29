@@ -16,16 +16,13 @@ const MainHeader = props => {
             <li className={location.pathname !== '/' ? 'nav-item' : 'nav-item active'}>
               <a className="nav-link" href="/">Search<span className="sr-only">(current)</span></a>
             </li>
-            <li className={location.pathname !== '/about' ? 'nav-item' : 'nav-item active'}>
-              <a className="nav-link" href="/about">About</a>
-            </li>
             <li className={location.pathname !== '/faq' ? 'nav-item' : 'nav-item active'}>
               <a className="nav-link" href="/faq">FAQ</a>
             </li>
-            <li className={location.pathname !== '/contact' ? 'nav-item' : 'nav-item active'}>
+            {/* <li className={location.pathname !== '/contact' ? 'nav-item' : 'nav-item active'}>
               <a className="nav-link" href="/contact">Contact</a>
             </li>
-            {/* <li className={location.pathname !== '/users' ? 'nav-item' : 'nav-item active'}>
+            <li className={location.pathname !== '/users' ? 'nav-item' : 'nav-item active'}>
               <a className="nav-link" href="/users">Users</a>
             </li>
             <li className={!location.pathname.includes('/person/') ? 'nav-item' : 'nav-item active'}>
