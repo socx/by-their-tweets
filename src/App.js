@@ -80,9 +80,9 @@ class App extends Component {
           </main>
           <MDBFooter color='fonce'>
             <p className='footer-copyright mb-0 py-3 text-center'>
-              &copy; 2020 - {new Date().getFullYear()}
+              &copy; {new Date().getFullYear()}
               <a href='https://www.bytheirtweets.co.uk'> ByTheirTweets </a>
-                 v. ({process.env.REACT_APP_VERSION})
+                 (v. {process.env.REACT_APP_VERSION})
             </p>
           </MDBFooter>
         </div>
