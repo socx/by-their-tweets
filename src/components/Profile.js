@@ -1,9 +1,9 @@
 import React from 'react'
 import { Col, Image, Row } from 'react-bootstrap';
-import photoPlaceHolder from './img-placeholer-100-by-180.png';
+import photoPlaceHolder from '../assets/img-placeholer-100-by-180.png';
 
 const Profile = (props) => { 
-  return <Row>
+  return <Row className="mt-5 mb-5">
     <Col xs={12} sm={6} md={5}>
       <Image src={props.twitterProfileImageUrl ? props.twitterProfileImageUrl.replace('_normal.', '.') : photoPlaceHolder}
         width={280}

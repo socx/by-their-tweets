@@ -1,0 +1,4 @@
+export const SEARCH_TEXT_CHANGED = 'search/SEARCH_TEXT_CHANGED'
+export const GET_PEOPLE_REQUEST = 'search/GET_PEOPLE_REQUEST'
+export const GET_PEOPLE_SUCCESS = 'search/GET_PEOPLE_SUCCESS'
+export const GET_PEOPLE_FAILED = 'search/GET_PEOPLE_FAILED'

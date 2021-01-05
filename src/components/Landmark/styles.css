@@ -1,0 +1,66 @@
+.landmark {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  background-image: url(../../assets/palace-of-westminster.jpg);
+  background-size: cover;
+  background-position: center center; }
+  @media (min-width: 576px) {
+    .landmark {
+      align-items: center; } }
+  @media (min-width: 768px) {
+    .landmark {
+      min-height: 474px; } }
+  @media (max-width: 575px) {
+    .landmark {
+      align-items: flex-end;
+      min-height: 250px;
+      margin-top: -8px; } }
+  .landmark .landmark-text-strip {
+    display: flex;
+    justify-content: center;
+    margin-left: 32px;
+    margin-right: 32px;
+    width: 1136px; }
+    @media (max-width: 575px) {
+      .landmark .landmark-text-strip {
+        align-self: center;
+        margin-top: -70px; } }
+    @media (min-width: 768px) {
+      .landmark .landmark-text-strip {
+        justify-content: flex-end;
+        align-self: start; } }
+    @media (max-width: 991px) {
+      .landmark .landmark-text-strip {
+        width: 100%; } }
+    .landmark .landmark-text-strip .landmark-text {
+      display: flex;
+      flex-direction: column;
+      max-width: 400px;
+      text-align: center;
+      padding: 1rem;
+      background-color: #fff;
+      opacity: .7; }
+      @media (max-width: 991px) and (min-width: 768px) {
+        .landmark .landmark-text-strip .landmark-text {
+          margin-bottom: 91.5px; } }
+      @media (min-width: 768px) {
+        .landmark .landmark-text-strip .landmark-text {
+          text-align: left;
+          margin-top: 32px; } }
+      .landmark .landmark-text-strip .landmark-text .landmark-text-title {
+        color: #000;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 1.2; }
+        @media (min-width: 576px) {
+          .landmark .landmark-text-strip .landmark-text .landmark-text-title {
+            font-size: 40px; } }
+      .landmark .landmark-text-strip .landmark-text .landmark-text-subtitle {
+        font-size: 18px;
+        font-weight: 500; }
+        @media (max-width: 576px) {
+          .landmark .landmark-text-strip .landmark-text .landmark-text-subtitle {
+            display: none; } }
