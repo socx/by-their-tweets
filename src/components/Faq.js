@@ -32,13 +32,13 @@ class Faq extends React.Component {
               <Card>
                 <Card.Header>
                   <Accordion.Toggle as={Button} variant="link" eventKey="1">
-                    <h4>How far back does the information</h4>
+                    <h4>How far back does the information ? </h4>
                   </Accordion.Toggle>
                 </Card.Header>
                 <Accordion.Collapse eventKey="1">
                   <Card.Body>
                     <p>
-                      Timeline searches are restricited to tweets from or after 2<sup>nd</sup> December 2020.
+                      Timeline searches are restricited to tweets from or after December 2020.
                     </p>
                   </Card.Body>
                 </Accordion.Collapse>

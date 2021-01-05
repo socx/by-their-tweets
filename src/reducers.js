@@ -7,6 +7,5 @@ import tweets from './container/Tweets/reducer'
 const createRootReducer = (history) => combineReducers({
   router: connectRouter(history),
   search, people, tweets
-  // rest of your reducers
 })
 export default createRootReducer

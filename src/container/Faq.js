@@ -8,7 +8,6 @@ class Faq extends React.Component {
   render() {
     return (
       <>
-        <Spinner color='primary' type='grow' />
         <FaqComponent />
       </>
     );
