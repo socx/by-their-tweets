@@ -15,7 +15,7 @@ export default function PoiCard(props) {
         <div className="card-body">
           <h5 className="card-title">{name}</h5>
           <p className="card-subtitle">{subTitle}</p>
-          <p className="card-text"><small className="text-muted">Constituency: {constituency}</small></p>
+          <p className="card-text text-muted">Constituency: {constituency}</p>
         </div>
       </div>
     </a>

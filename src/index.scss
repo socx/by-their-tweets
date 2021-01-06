@@ -70,14 +70,23 @@ body {
 }
 
 
-.embed-responsive .card-img-top {
-  object-fit: cover;
+.embed-responsive {
+  height: 300px;
+  .card-img-top {
+    object-fit: cover;
+    // height:180px;
+  }
 }
 
 .card-text {
   min-height:2em;
 }
 
-.card {
- height: 280px;
+.card { 
+ height: 450px;
+ .card-body {
+  .card-title {
+    height: 30px;
+  }
+ }
 }

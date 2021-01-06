@@ -55,11 +55,15 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased; }
 
-.embed-responsive .card-img-top {
-  object-fit: cover; }
+.embed-responsive {
+  height: 300px; }
+  .embed-responsive .card-img-top {
+    object-fit: cover; }
 
 .card-text {
   min-height: 2em; }
 
 .card {
-  height: 280px; }
+  height: 450px; }
+  .card .card-body .card-title {
+    height: 30px; }
