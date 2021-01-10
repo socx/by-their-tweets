@@ -56,14 +56,13 @@ body {
   -webkit-font-smoothing: antialiased; }
 
 .embed-responsive {
-  height: 300px; }
+  height: 320px; }
   .embed-responsive .card-img-top {
     object-fit: cover; }
 
-.card-text {
-  min-height: 2em; }
-
-.card {
+.personal-profile .card {
   height: 450px; }
-  .card .card-body .card-title {
+  .personal-profile .card .card-body .card-title {
     height: 30px; }
+  .personal-profile .card .card-body .card-text {
+    min-height: 2em; }
