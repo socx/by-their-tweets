@@ -1,6 +1,6 @@
 ## By their tweets front end
 
-_Home page_; simple google-like or top-part-of-Azimo-like; just a search bar that accepts postcode or county (see BBC for what to search by)
+_Home page_; simple google-like; just a search bar that accepts postcode or county (see BBC for what to search by)
 
 _Profile page_; just look at categorised tweet for information and one of this templates for profile look-and-feel
 1. Photo
